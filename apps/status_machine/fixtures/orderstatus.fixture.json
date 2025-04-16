@@ -1,0 +1,66 @@
+[
+{
+  "model": "status_machine.orderstatus",
+  "pk": 1,
+  "fields": {
+    "code": 1000,
+    "description": "created"
+  }
+},
+{
+  "model": "status_machine.orderstatus",
+  "pk": 2,
+  "fields": {
+    "code": 2000,
+    "description": "draft"
+  }
+},
+{
+  "model": "status_machine.orderstatus",
+  "pk": 3,
+  "fields": {
+    "code": 3000,
+    "description": "on_customer"
+  }
+},
+{
+  "model": "status_machine.orderstatus",
+  "pk": 4,
+  "fields": {
+    "code": 4000,
+    "description": "on_company_revision"
+  }
+},
+{
+  "model": "status_machine.orderstatus",
+  "pk": 5,
+  "fields": {
+    "code": 5000,
+    "description": "on_company_support"
+  }
+},
+{
+  "model": "status_machine.orderstatus",
+  "pk": 6,
+  "fields": {
+    "code": 8000,
+    "description": "rejected"
+  }
+},
+{
+  "model": "status_machine.orderstatus",
+  "pk": 7,
+  "fields": {
+    "code": 9000,
+    "description": "lost"
+  }
+},
+{
+  "model": "status_machine.orderstatus",
+  "pk": 8,
+  "fields": {
+    "code": 10000,
+    "description": "archived"
+  }
+}
+]
