@@ -1,4 +1,5 @@
 from decimal import Decimal
+
 from django.db import models
 
 from apps.common.models import CommonData
