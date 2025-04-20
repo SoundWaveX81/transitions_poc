@@ -7,6 +7,7 @@ from apps.status_machine.models import OrderStatus
 
 
 class Order(CommonData):
+    ready_to_customer = models.BooleanField(default=False)
     signed = models.BooleanField(default=False)
     start_date = models.DateField(verbose_name="Order start date", null=True)
     status = models.ForeignKey(OrderStatus, on_delete=models.DO_NOTHING, default=1)
